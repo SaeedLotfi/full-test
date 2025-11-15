@@ -28,7 +28,7 @@ class SearchTests {
         $("[name='q']").setValue("Selenide").pressEnter();
 
         // assert result page contains related text
-        $("body").shouldHave(text("Upgrade"));
+        $("body").shouldHave(text("Images"));
     }
 
     @AfterEach
